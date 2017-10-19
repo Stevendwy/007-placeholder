@@ -19,8 +19,8 @@ Page({
     dataTeach:[],
     dataTechnology:[],
 
-    leftlist: ["零件类型:", "厂家:", "备注:", "进价(未含税):", "进价(含税):", "销售价:"],
-    rightlist: ["parttype", "mill", "remark", "eot_price", "cost_price", "prices"],
+    leftlist: ["零件类型:", "厂家:", "说明:", "地区:", "库存:", "销售价:","供货商:"],
+    rightlist: ["parttype", "mill", "remark", "location", "amount", "prices", "supplier"],
 
     replacelist: ["品牌:", "零件号:", "车型:", "件数:", "型号:", "参考价格:"],
     replacerightlist: ["brandcn", "pid", "ptype", "counts", "lable", "prices"],
