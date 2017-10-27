@@ -75,7 +75,7 @@
     </view> 
 
 
-     <view class= '{{dataPrice.length > 0 && (toView=="goprice" || toView=="gomessage") ? "result-right-list result-right-price":"notshow"}}' id="goprice">
+     <view class= '{{dataPrice.length > 0 && (toView=="goprice") ? "result-right-list result-right-price":"notshow"}}' id="goprice">
       <view class="nav-show">
         <view class="nav-show-block"></view>
         <text>渠道价格</text>
@@ -94,7 +94,7 @@
     </view> 
 
 
-     <view class='{{dataReplace.length > 0 && (toView=="goreplace"||toView=="gomessage") ? "result-right-list result-right-replace":"notshow"}}' id="goreplace">
+     <view class='{{dataReplace.length > 0 && (toView=="goreplace") ? "result-right-list result-right-replace":"notshow"}}' id="goreplace">
       <view class="nav-show">
         <view class="nav-show-block"></view>
         <text>替换件</text>
@@ -113,7 +113,7 @@
     </view> 
 
 
-     <view class='{{dataModule.length > 0 && (toView=="gomodule"||toView=="gomessage") ? "result-right-list result-right-module":"notshow"}}' id="gomodule">
+     <view class='{{dataModule.length > 0 && (toView=="gomodule") ? "result-right-list result-right-module":"notshow"}}' id="gomodule">
       <view class="nav-show">
         <view class="nav-show-block"></view>
         <text>组件</text>
@@ -132,7 +132,7 @@
     </view> 
 
 
-      <view class='{{dataTeach.length > 0 && (toView=="goteach"||toView=="gomessage") ? "result-right-list result-right-technology":"notshow"}}' id="goteach">
+      <view class='{{dataTeach.length > 0 && (toView=="goteach") ? "result-right-list result-right-technology":"notshow"}}' id="goteach">
       <view class="nav-show">
         <view class="nav-show-block"></view>
         <text>技术信息</text>
@@ -148,7 +148,7 @@
       </view>
     </view> 
 
-    <view class='{{dataTechnology.length > 0 && (toView=="gotechnology"||toView=="gomessage") ? "result-right-list result-right-module":"notshow"}}' id="gotechnology">
+    <view class='{{dataTechnology.length > 0 && (toView=="gotechnology") ? "result-right-list result-right-module":"notshow"}}' id="gotechnology">
       <view class="nav-show">
         <view class="nav-show-block"></view>
         <text>适用车型</text>
